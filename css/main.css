@@ -1,0 +1,60 @@
+@font-face {
+    font-family: ghaist;
+    src: url(../fonts/Ghaitsa.otf);
+}
+
+@font-face {
+    font-family: ghaista;
+    src: url(../fonts/Ghaitsa.ttf);
+}
+@font-face {
+    font-family: lbItac;
+    src: url(../fonts/LibreCaslonText-Italic.ttf);
+}
+@font-face {
+    font-family: lbbold;
+    src: url(../fonts/LibreCaslonText-Bold.ttf);
+}
+@font-face {
+    font-family: lbregular;
+    src: url(../fonts/LibreCaslonText-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color:#51733F;
+}
+
+body {
+    background: #F5F5EB;
+    font-family: ghaist;
+}
+nav{
+    font-family: ghaista;
+}
+.collapse{
+   padding-left: 400px;
+}
+.navbar-brand{
+    color: var(--primary_color);
+}
+.nav-link{
+    color: #bab86e !important;
+    margin: 0 5px;
+}
+.download-cv-btn{
+    border: 2px solid var(--primary_color);
+    padding: 5px 10px;
+    background: #F6FFDE;
+    outline: none;
+    color: var(--primary_color);
+    border-radius: 13px;
+}
+.nav-link:hover,.active{
+    border-bottom: 2px solid var(--primary_color);
+    color: var(--primary_color) !important;
+}
